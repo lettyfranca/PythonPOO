@@ -12,7 +12,12 @@ from Conta import Conta
 c1 = Cliente("Letícia", "1199999-9999")
 conta = Conta(c1._nome, 3101, 0)
 
+#utilização dos métodos
+conta.deposita(100)
+conta.saque(50)
+conta.extrato()
+
 #impressão do resultado
-print(c1)
-print(c1._nome, "e", c1._telefone)
-print(conta.titular, "Número:", conta.numero, "Saldo =", conta.saldo)
+#print(c1)
+#print(c1._nome, "e", c1._telefone)
+#print(conta.titular, "Número:", conta.numero, "Saldo =", conta.saldo)
